@@ -1,0 +1,193 @@
+# Motor Sheild Module
+# 2013-04-29 16:08:21Z
+
+# IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 0
+# IO_1@[IOP=(1)][IoId=(1)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 1
+# IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 3
+set_location "ClockBlock" clockblockcell -1 -1 0
+set_location "Net_22" 2 3 1 0
+set_location "Net_25" 3 4 0 2
+set_location "Net_98" 0 0 1 3
+set_location "Net_99" 1 3 1 3
+set_io "Pin_1(0)" iocell 12 2
+set_io "Pin_2(0)" iocell 12 3
+set_io "Pin_3(0)" iocell 12 4
+set_io "Pin_4(0)" iocell 12 5
+set_location "\Motor_1:Control_Reg_1:Async:ctrl_reg\" 2 2 6
+set_location "\Motor_1:Net_330\" 3 3 0 1
+set_location "\Motor_1:Net_332\" 2 1 0 2
+set_location "\Motor_1:Net_333\" 3 3 1 1
+set_location "\Motor_1:Net_3604\" 3 2 0 2
+set_location "\Motor_1:Net_3614\" 2 0 1 0
+set_location "\Motor_1:Net_3616\" 2 2 0 0
+set_location "\Motor_1:Net_3617\" 1 1 0 0
+set_location "\Motor_1:Net_3619\" 2 5 0 0
+set_location "\Motor_1:Net_3620\" 3 5 0 0
+set_location "\Motor_1:Net_3621\" 0 1 1 3
+set_location "\Motor_1:Net_3622\" 3 0 1 0
+set_location "\Motor_1:Net_3623\" 1 0 0 0
+set_location "\Motor_1:Net_3625\" 0 2 0 0
+set_location "\Motor_1:Net_796\" 2 3 0 1
+set_location "\Motor_1:Net_798\" 1 3 0 0
+set_location "\Motor_1:Net_802\" 3 4 1 1
+set_location "\Motor_1:PWM_10:PWMUDB:final_kill_reg\" 3 2 1 1
+set_location "\Motor_1:PWM_10:PWMUDB:ltch_kill_reg\" 3 2 1 2
+set_location "\Motor_1:PWM_10:PWMUDB:min_kill_reg\" 2 2 1 1
+set_location "\Motor_1:PWM_10:PWMUDB:prevCompare1\" 3 2 0 3
+set_location "\Motor_1:PWM_10:PWMUDB:runmode_enable\" 3 1 0 2
+set_location "\Motor_1:PWM_10:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 3 1 6
+set_location "\Motor_1:PWM_10:PWMUDB:sP8:pwmdp:u0\" 3 2 2
+set_location "\Motor_1:PWM_10:PWMUDB:sSTSReg:nrstSts:stsreg\" 3 2 4
+set_location "\Motor_1:PWM_10:PWMUDB:sc_kill_tmp\" 3 2 0 0
+set_location "\Motor_1:PWM_10:PWMUDB:status_0\" 3 2 1 0
+set_location "\Motor_1:PWM_10:PWMUDB:status_5\" 3 1 1 3
+set_location "\Motor_1:PWM_11:PWMUDB:final_kill_reg\" 2 2 0 3
+set_location "\Motor_1:PWM_11:PWMUDB:ltch_kill_reg\" 3 2 1 3
+set_location "\Motor_1:PWM_11:PWMUDB:min_kill_reg\" 1 3 1 1
+set_location "\Motor_1:PWM_11:PWMUDB:prevCompare1\" 3 4 0 0
+set_location "\Motor_1:PWM_11:PWMUDB:prevCompare2\" 2 2 0 1
+set_location "\Motor_1:PWM_11:PWMUDB:runmode_enable\" 2 0 0 1
+set_location "\Motor_1:PWM_11:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 2 3 6
+set_location "\Motor_1:PWM_11:PWMUDB:sP8:pwmdp:u0\" 1 2 2
+set_location "\Motor_1:PWM_11:PWMUDB:sSTSReg:nrstSts:stsreg\" 1 3 4
+set_location "\Motor_1:PWM_11:PWMUDB:sc_kill_tmp\" 2 4 0 2
+set_location "\Motor_1:PWM_11:PWMUDB:status_0\" 3 4 0 1
+set_location "\Motor_1:PWM_11:PWMUDB:status_1\" 2 2 0 2
+set_location "\Motor_1:PWM_11:PWMUDB:status_5\" 1 2 0 3
+set_location "\Motor_1:PWM_11:PWMUDB:trig_disable\" 2 0 0 0
+set_location "\Motor_1:PWM_12:PWMUDB:final_kill_reg\" 2 1 1 3
+set_location "\Motor_1:PWM_12:PWMUDB:ltch_kill_reg\" 1 0 0 3
+set_location "\Motor_1:PWM_12:PWMUDB:min_kill_reg\" 2 2 1 2
+set_location "\Motor_1:PWM_12:PWMUDB:prevCompare1\" 1 1 0 3
+set_location "\Motor_1:PWM_12:PWMUDB:prevCompare2\" 1 1 0 1
+set_location "\Motor_1:PWM_12:PWMUDB:runmode_enable\" 1 2 1 3
+set_location "\Motor_1:PWM_12:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 1 1 6
+set_location "\Motor_1:PWM_12:PWMUDB:sP8:pwmdp:u0\" 1 1 2
+set_location "\Motor_1:PWM_12:PWMUDB:sSTSReg:nrstSts:stsreg\" 1 1 4
+set_location "\Motor_1:PWM_12:PWMUDB:sc_kill_tmp\" 1 3 0 3
+set_location "\Motor_1:PWM_12:PWMUDB:status_0\" 1 0 1 1
+set_location "\Motor_1:PWM_12:PWMUDB:status_1\" 1 1 0 2
+set_location "\Motor_1:PWM_12:PWMUDB:status_5\" 3 2 0 1
+set_location "\Motor_1:PWM_13:PWMUDB:final_kill_reg\" 1 0 1 3
+set_location "\Motor_1:PWM_13:PWMUDB:ltch_kill_reg\" 1 2 0 2
+set_location "\Motor_1:PWM_13:PWMUDB:min_kill_reg\" 1 3 1 2
+set_location "\Motor_1:PWM_13:PWMUDB:prevCompare1\" 0 1 1 1
+set_location "\Motor_1:PWM_13:PWMUDB:prevCompare2\" 0 0 0 1
+set_location "\Motor_1:PWM_13:PWMUDB:runmode_enable\" 0 1 1 2
+set_location "\Motor_1:PWM_13:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 0 1 6
+set_location "\Motor_1:PWM_13:PWMUDB:sP8:pwmdp:u0\" 0 1 2
+set_location "\Motor_1:PWM_13:PWMUDB:sSTSReg:nrstSts:stsreg\" 0 1 4
+set_location "\Motor_1:PWM_13:PWMUDB:sc_kill_tmp\" 0 3 1 0
+set_location "\Motor_1:PWM_13:PWMUDB:status_0\" 0 1 1 0
+set_location "\Motor_1:PWM_13:PWMUDB:status_1\" 0 0 0 2
+set_location "\Motor_1:PWM_13:PWMUDB:status_5\" 0 1 0 2
+set_location "\Motor_1:PWM_14:PWMUDB:final_kill_reg\" 0 2 1 2
+set_location "\Motor_1:PWM_14:PWMUDB:ltch_kill_reg\" 2 2 1 0
+set_location "\Motor_1:PWM_14:PWMUDB:min_kill_reg\" 3 5 1 3
+set_location "\Motor_1:PWM_14:PWMUDB:prevCompare1\" 0 2 1 0
+set_location "\Motor_1:PWM_14:PWMUDB:prevCompare2\" 0 2 0 1
+set_location "\Motor_1:PWM_14:PWMUDB:runmode_enable\" 0 2 1 3
+set_location "\Motor_1:PWM_14:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 0 2 6
+set_location "\Motor_1:PWM_14:PWMUDB:sP8:pwmdp:u0\" 0 2 2
+set_location "\Motor_1:PWM_14:PWMUDB:sSTSReg:nrstSts:stsreg\" 0 2 4
+set_location "\Motor_1:PWM_14:PWMUDB:sc_kill_tmp\" 2 4 1 1
+set_location "\Motor_1:PWM_14:PWMUDB:status_0\" 0 2 1 1
+set_location "\Motor_1:PWM_14:PWMUDB:status_1\" 0 2 0 2
+set_location "\Motor_1:PWM_14:PWMUDB:status_5\" 0 1 0 0
+set_location "\Motor_1:PWM_15:PWMUDB:final_kill_reg\" 3 5 1 0
+set_location "\Motor_1:PWM_15:PWMUDB:ltch_kill_reg\" 3 5 1 2
+set_location "\Motor_1:PWM_15:PWMUDB:min_kill_reg\" 3 0 1 1
+set_location "\Motor_1:PWM_15:PWMUDB:prevCompare1\" 3 5 0 1
+set_location "\Motor_1:PWM_15:PWMUDB:runmode_enable\" 3 5 0 3
+set_location "\Motor_1:PWM_15:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 3 5 6
+set_location "\Motor_1:PWM_15:PWMUDB:sP8:pwmdp:u0\" 3 5 2
+set_location "\Motor_1:PWM_15:PWMUDB:sSTSReg:nrstSts:stsreg\" 3 5 4
+set_location "\Motor_1:PWM_15:PWMUDB:sc_kill_tmp\" 2 5 1 0
+set_location "\Motor_1:PWM_15:PWMUDB:status_0\" 3 5 0 2
+set_location "\Motor_1:PWM_15:PWMUDB:status_5\" 3 5 1 1
+set_location "\Motor_1:PWM_16:PWMUDB:final_kill_reg\" 2 3 0 0
+set_location "\Motor_1:PWM_16:PWMUDB:ltch_kill_reg\" 2 2 1 3
+set_location "\Motor_1:PWM_16:PWMUDB:min_kill_reg\" 2 0 0 2
+set_location "\Motor_1:PWM_16:PWMUDB:prevCompare1\" 2 5 0 1
+set_location "\Motor_1:PWM_16:PWMUDB:runmode_enable\" 3 4 0 3
+set_location "\Motor_1:PWM_16:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 2 5 6
+set_location "\Motor_1:PWM_16:PWMUDB:sP8:pwmdp:u0\" 2 4 2
+set_location "\Motor_1:PWM_16:PWMUDB:sSTSReg:nrstSts:stsreg\" 2 5 4
+set_location "\Motor_1:PWM_16:PWMUDB:sc_kill_tmp\" 2 5 1 2
+set_location "\Motor_1:PWM_16:PWMUDB:status_0\" 2 5 0 2
+set_location "\Motor_1:PWM_16:PWMUDB:status_5\" 2 5 1 1
+set_location "\Motor_1:PWM_1:PWMUDB:final_kill_reg\" 3 1 0 3
+set_location "\Motor_1:PWM_1:PWMUDB:prevCompare1\" 3 3 1 2
+set_location "\Motor_1:PWM_1:PWMUDB:runmode_enable\" 3 1 1 0
+set_location "\Motor_1:PWM_1:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 3 3 6
+set_location "\Motor_1:PWM_1:PWMUDB:sP8:pwmdp:u0\" 3 3 2
+set_location "\Motor_1:PWM_1:PWMUDB:sSTSReg:nrstSts:stsreg\" 3 3 4
+set_location "\Motor_1:PWM_1:PWMUDB:status_0\" 3 3 1 3
+set_location "\Motor_1:PWM_1:PWMUDB:status_5\" 2 1 1 0
+set_location "\Motor_1:PWM_2:PWMUDB:prevCompare1\" 2 4 1 2
+set_location "\Motor_1:PWM_2:PWMUDB:prevCompare2\" 2 1 0 1
+set_location "\Motor_1:PWM_2:PWMUDB:runmode_enable\" 2 1 1 2
+set_location "\Motor_1:PWM_2:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 2 1 6
+set_location "\Motor_1:PWM_2:PWMUDB:sP8:pwmdp:u0\" 2 1 2
+set_location "\Motor_1:PWM_2:PWMUDB:sSTSReg:nrstSts:stsreg\" 2 1 4
+set_location "\Motor_1:PWM_2:PWMUDB:status_0\" 2 1 1 1
+set_location "\Motor_1:PWM_2:PWMUDB:status_1\" 2 1 0 0
+set_location "\Motor_1:PWM_3:PWMUDB:prevCompare1\" 0 0 1 2
+set_location "\Motor_1:PWM_3:PWMUDB:prevCompare2\" 1 0 0 1
+set_location "\Motor_1:PWM_3:PWMUDB:runmode_enable\" 1 0 1 2
+set_location "\Motor_1:PWM_3:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 1 0 6
+set_location "\Motor_1:PWM_3:PWMUDB:sP8:pwmdp:u0\" 1 0 2
+set_location "\Motor_1:PWM_3:PWMUDB:sSTSReg:nrstSts:stsreg\" 1 0 4
+set_location "\Motor_1:PWM_3:PWMUDB:status_0\" 1 0 1 0
+set_location "\Motor_1:PWM_3:PWMUDB:status_1\" 1 0 0 2
+set_location "\Motor_1:PWM_4:PWMUDB:prevCompare1\" 2 3 1 2
+set_location "\Motor_1:PWM_4:PWMUDB:runmode_enable\" 3 1 1 1
+set_location "\Motor_1:PWM_4:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 3 2 6
+set_location "\Motor_1:PWM_4:PWMUDB:sP8:pwmdp:u0\" 3 1 2
+set_location "\Motor_1:PWM_4:PWMUDB:sSTSReg:nrstSts:stsreg\" 3 1 4
+set_location "\Motor_1:PWM_4:PWMUDB:status_0\" 2 3 1 1
+set_location "\Motor_1:PWM_5:PWMUDB:prevCompare1\" 3 4 1 2
+set_location "\Motor_1:PWM_5:PWMUDB:runmode_enable\" 3 3 0 2
+set_location "\Motor_1:PWM_5:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 3 4 6
+set_location "\Motor_1:PWM_5:PWMUDB:sP8:pwmdp:u0\" 3 4 2
+set_location "\Motor_1:PWM_5:PWMUDB:sSTSReg:nrstSts:stsreg\" 3 4 4
+set_location "\Motor_1:PWM_5:PWMUDB:status_0\" 3 4 1 3
+set_location "\Motor_1:PWM_6:PWMUDB:prevCompare1\" 3 1 0 1
+set_location "\Motor_1:PWM_6:PWMUDB:prevCompare2\" 3 0 0 3
+set_location "\Motor_1:PWM_6:PWMUDB:runmode_enable\" 3 0 1 3
+set_location "\Motor_1:PWM_6:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 3 0 6
+set_location "\Motor_1:PWM_6:PWMUDB:sP8:pwmdp:u0\" 3 0 2
+set_location "\Motor_1:PWM_6:PWMUDB:sSTSReg:nrstSts:stsreg\" 3 0 4
+set_location "\Motor_1:PWM_6:PWMUDB:status_0\" 3 1 0 0
+set_location "\Motor_1:PWM_6:PWMUDB:status_1\" 3 0 0 0
+set_location "\Motor_1:PWM_7:PWMUDB:prevCompare1\" 1 2 1 0
+set_location "\Motor_1:PWM_7:PWMUDB:prevCompare2\" 1 3 0 1
+set_location "\Motor_1:PWM_7:PWMUDB:runmode_enable\" 1 3 1 0
+set_location "\Motor_1:PWM_7:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 1 3 6
+set_location "\Motor_1:PWM_7:PWMUDB:sP8:pwmdp:u0\" 1 3 2
+set_location "\Motor_1:PWM_7:PWMUDB:sSTSReg:nrstSts:stsreg\" 0 3 4
+set_location "\Motor_1:PWM_7:PWMUDB:status_0\" 1 2 1 2
+set_location "\Motor_1:PWM_7:PWMUDB:status_1\" 1 3 0 2
+set_location "\Motor_1:PWM_8:PWMUDB:prevCompare1\" 2 4 0 0
+set_location "\Motor_1:PWM_8:PWMUDB:runmode_enable\" 2 3 0 3
+set_location "\Motor_1:PWM_8:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 2 4 6
+set_location "\Motor_1:PWM_8:PWMUDB:sP8:pwmdp:u0\" 2 3 2
+set_location "\Motor_1:PWM_8:PWMUDB:sSTSReg:nrstSts:stsreg\" 2 3 4
+set_location "\Motor_1:PWM_8:PWMUDB:status_0\" 2 3 1 3
+set_location "\Motor_1:PWM_9:PWMUDB:final_kill_reg\" 3 0 0 2
+set_location "\Motor_1:PWM_9:PWMUDB:ltch_kill_reg\" 3 0 0 1
+set_location "\Motor_1:PWM_9:PWMUDB:min_kill_reg\" 1 2 0 0
+set_location "\Motor_1:PWM_9:PWMUDB:prevCompare1\" 2 0 1 1
+set_location "\Motor_1:PWM_9:PWMUDB:runmode_enable\" 2 0 1 3
+set_location "\Motor_1:PWM_9:PWMUDB:sCTRLReg:AsyncCtl:ctrlreg\" 2 0 6
+set_location "\Motor_1:PWM_9:PWMUDB:sP8:pwmdp:u0\" 2 0 2
+set_location "\Motor_1:PWM_9:PWMUDB:sSTSReg:nrstSts:stsreg\" 2 0 4
+set_location "\Motor_1:PWM_9:PWMUDB:sc_kill_tmp\" 2 4 0 1
+set_location "\Motor_1:PWM_9:PWMUDB:status_0\" 2 0 1 2
+set_location "\Motor_1:PWM_9:PWMUDB:status_5\" 3 0 1 2
+set_location "\Motor_1:Status_Reg_1:sts:sts_reg\" 1 5 3
+set_location "\Motor_1:Timer_1:TimerHW\" timercell -1 -1 0
+set_location "__ONE__" 3 4 1 0

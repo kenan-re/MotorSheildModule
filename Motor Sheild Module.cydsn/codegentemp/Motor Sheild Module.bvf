@@ -1,0 +1,1813 @@
+
+----------------------------------------------------------------------
+
+Verifying bitstream.
+
+-----------------------------------------------------------------------
+
+
+---------Mapping jacks.---------
+
+
+---------Processing bitstream.---------
+
+Utilized "udb_hv_a@[UDB Pair=(0,0)]"
+Utilized "udb_hc@[UDB Pair=(0,0)]"
+Utilized "udb_hv_b@[UDB Pair=(0,1)]"
+Utilized "udb_hc@[UDB Pair=(0,1)]"
+Utilized "udb_hv_a@[UDB Pair=(0,2)]"
+Utilized "udb_hc@[UDB Pair=(0,2)]"
+Utilized "udb_hv_b@[UDB Pair=(0,3)]"
+Utilized "udb_hc@[UDB Pair=(0,3)]"
+Utilized "udb_hv_a@[UDB Pair=(0,4)]"
+Utilized "udb_hc@[UDB Pair=(0,5)]"
+Utilized "udb_hv_b@[UDB Pair=(1,0)]"
+Utilized "udb_hc@[UDB Pair=(1,0)]"
+Utilized "udb_hv_a@[UDB Pair=(1,1)]"
+Utilized "udb_hc@[UDB Pair=(1,1)]"
+Utilized "udb_hv_b@[UDB Pair=(1,2)]"
+Utilized "udb_hc@[UDB Pair=(1,2)]"
+Utilized "udb_hv_a@[UDB Pair=(1,3)]"
+Utilized "udb_hc@[UDB Pair=(1,3)]"
+Utilized "udb_hv_b@[UDB Pair=(1,4)]"
+Utilized "udb_hc@[UDB Pair=(1,4)]"
+Utilized "udb_hc@[UDB Pair=(1,5)]"
+Utilized "dsi_hv_b@[DSI=(1,1)][side=bottom]"
+Utilized "dsi_hc@[DSI=(1,2)][side=bottom]"
+Utilized "dsi_hv_a@[DSI=(1,2)][side=bottom]"
+Utilized "dsi_hc@[DSI=(1,3)][side=bottom]"
+Utilized "dsi_hv_b@[DSI=(1,3)][side=bottom]"
+Utilized "dsi_hc@[DSI=(1,4)][side=bottom]"
+Utilized "dsi_hv_a@[DSI=(1,4)][side=bottom]"
+
+---------Propagating signals.---------
+
+Found signal "\Motor_1:PWM_13:PWMUDB:prevCompare2\" on jack "pld0:out1[UDB=(0,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in2[UDB=(0,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:status_1\" on jack "pld0:out2[UDB=(0,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(0,1)]"
+    
+    
+
+Found signal "Net_98" on jack "pld1:out1[UDB=(0,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "io_ijack_4[IOP=(12)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:prevCompare1\" on jack "pld1:out2[UDB=(0,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in6[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:prevCompare2\" on jack "pld0:out0[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in0[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:status_1\" on jack "pld0:out1[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:ltch_kill_reg\" on jack "pld0:out2[UDB=(1,0)]".
+Number of connected bvjacks: 4.
+
+    1. Connected jack name: "pld1:in8[UDB=(2,1)]"
+    
+    2. Connected jack name: "pld0:in8[UDB=(1,1)]"
+    
+    3. Connected jack name: "pld0:in7[UDB=(1,0)]"
+    
+    4. Connected jack name: "pld1:in9[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:Net_3623\" on jack "pld0:out3[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in8[UDB=(0,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:status_0\" on jack "pld1:out0[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:final_kill_reg\" on jack "pld1:out1[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in9[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:status_0\" on jack "pld1:out2[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:runmode_enable\" on jack "pld1:out3[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in0[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:cmp2_less\" on jack "dp:out0[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in9[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:status_3\" on jack "dp:out1[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:compare1\" on jack "dp:out3[UDB=(1,0)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld1:in10[UDB=(1,0)]"
+    
+    2. Connected jack name: "pld0:in5[UDB=(1,0)]"
+    
+    3. Connected jack name: "pld1:in9[UDB=(0,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:tc_i\" on jack "dp:out4[UDB=(1,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "dp:in1[UDB=(1,0)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:cmp2_eq\" on jack "dp:out5[UDB=(1,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in3[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_3:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(1,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in11[UDB=(1,0)]"
+    
+    2. Connected jack name: "pld1:in7[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:status_5\" on jack "pld0:out2[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:status_5\" on jack "pld0:out3[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:prevCompare1\" on jack "pld1:out0[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in4[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:runmode_enable\" on jack "pld1:out1[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in2[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:status_0\" on jack "pld1:out2[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:Net_3621\" on jack "pld1:out3[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in3[UDB=(0,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:cmp2_less\" on jack "dp:out0[UDB=(0,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in6[UDB=(0,0)]"
+    
+    2. Connected jack name: "pld1:in1[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:status_3\" on jack "dp:out1[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:compare1\" on jack "dp:out2[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in8[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:cmp2_eq\" on jack "dp:out3[UDB=(0,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in9[UDB=(0,0)]"
+    
+    2. Connected jack name: "pld1:in6[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:tc_i\" on jack "dp:out4[UDB=(0,1)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "dp:in5[UDB=(0,1)]"
+    
+    2. Connected jack name: "pld1:in5[UDB=(0,3)]"
+    
+    3. Connected jack name: "statctrl:in2[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(0,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in3[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:prevCompare2\" on jack "pld0:out0[UDB=(1,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in4[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:status_1\" on jack "pld0:out1[UDB=(1,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:prevCompare1\" on jack "pld0:out2[UDB=(1,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in5[UDB=(1,0)]"
+    
+    
+
+Found signal "\Motor_1:Net_3617\" on jack "pld0:out3[UDB=(1,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in7[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:status_3\" on jack "dp:out1[UDB=(1,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:cmp2_less\" on jack "dp:out2[UDB=(1,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in0[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:tc_i\" on jack "dp:out3[UDB=(1,1)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld0:in5[UDB=(1,3)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(1,1)]"
+    
+    3. Connected jack name: "dp:in5[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:cmp2_eq\" on jack "dp:out4[UDB=(1,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in10[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:compare1\" on jack "dp:out5[UDB=(1,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld1:in0[UDB=(1,0)]"
+    
+    2. Connected jack name: "pld0:in7[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(1,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld1:in0[UDB=(1,2)]"
+    
+    2. Connected jack name: "pld0:in11[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:prevCompare2\" on jack "pld0:out1[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in2[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:status_1\" on jack "pld0:out2[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:Net_3625\" on jack "pld0:out3[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in11[UDB=(0,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:prevCompare1\" on jack "pld1:out0[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in4[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:runmode_enable\" on jack "pld1:out1[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in2[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:final_kill_reg\" on jack "pld1:out2[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in5[UDB=(0,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:status_0\" on jack "pld1:out3[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:compare1\" on jack "dp:out0[UDB=(0,2)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in6[UDB=(0,2)]"
+    
+    2. Connected jack name: "pld1:in1[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:status_3\" on jack "dp:out1[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:cmp2_eq\" on jack "dp:out2[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in8[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:cmp2_less\" on jack "dp:out3[UDB=(0,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in1[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:tc_i\" on jack "dp:out4[UDB=(0,2)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld1:in0[UDB=(2,4)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(0,2)]"
+    
+    3. Connected jack name: "dp:in5[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(0,2)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in4[UDB=(0,2)]"
+    
+    2. Connected jack name: "pld1:in3[UDB=(0,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:min_kill_reg\" on jack "pld0:out0[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in3[UDB=(1,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:status_5\" on jack "pld0:out2[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:ltch_kill_reg\" on jack "pld0:out3[UDB=(1,2)]".
+Number of connected bvjacks: 4.
+
+    1. Connected jack name: "pld1:in4[UDB=(1,0)]"
+    
+    2. Connected jack name: "pld0:in3[UDB=(0,0)]"
+    
+    3. Connected jack name: "pld1:in11[UDB=(0,1)]"
+    
+    4. Connected jack name: "pld0:in7[UDB=(1,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:status_0\" on jack "pld1:out0[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(0,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:runmode_enable\" on jack "pld1:out1[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in2[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:prevCompare1\" on jack "pld1:out3[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in4[UDB=(1,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:cmp2_eq\" on jack "dp:out0[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in10[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:status_3\" on jack "dp:out1[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:tc_i\" on jack "dp:out2[UDB=(1,2)]".
+Number of connected bvjacks: 4.
+
+    1. Connected jack name: "statctrl:in2[UDB=(1,3)]"
+    
+    2. Connected jack name: "pld0:in3[UDB=(2,4)]"
+    
+    3. Connected jack name: "pld0:in10[UDB=(2,0)]"
+    
+    4. Connected jack name: "dp:in0[UDB=(1,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:cmp2_less\" on jack "dp:out3[UDB=(1,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in8[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:compare1\" on jack "dp:out4[UDB=(1,2)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in6[UDB=(3,4)]"
+    
+    2. Connected jack name: "pld0:in6[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:sc_kill_tmp\" on jack "pld1:out3[UDB=(0,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in3[UDB=(0,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:prevCompare2\" on jack "pld0:out0[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in3[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:status_1\" on jack "pld0:out1[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(0,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:sc_kill_tmp\" on jack "pld0:out2[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in1[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:Net_798\" on jack "pld0:out3[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in8[UDB=(1,3)]"
+    
+    
+
+Found signal "Net_99" on jack "pld1:out0[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "io_ijack_3[IOP=(12)]"
+    
+    
+
+Found signal "\Motor_1:PWM_13:PWMUDB:min_kill_reg\" on jack "pld1:out1[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in2[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:min_kill_reg\" on jack "pld1:out2[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in5[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:runmode_enable\" on jack "pld1:out3[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in0[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:status_3\" on jack "dp:out1[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(0,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:cmp2_less\" on jack "dp:out2[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in7[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:cmp2_eq\" on jack "dp:out3[UDB=(1,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in9[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:tc_i\" on jack "dp:out4[UDB=(1,3)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "dp:in1[UDB=(1,3)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(0,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:compare1\" on jack "dp:out5[UDB=(1,3)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld1:in8[UDB=(1,2)]"
+    
+    2. Connected jack name: "pld0:in11[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_7:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(1,3)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld1:in0[UDB=(1,3)]"
+    
+    2. Connected jack name: "pld0:in0[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:trig_disable\" on jack "pld0:out0[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in0[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:min_kill_reg\" on jack "pld0:out2[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in6[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:runmode_enable\" on jack "pld0:out3[UDB=(2,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "dp:in1[UDB=(1,2)]"
+    
+    2. Connected jack name: "pld0:in7[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:Net_3614\" on jack "pld1:out0[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in4[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:runmode_enable\" on jack "pld1:out1[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in2[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:prevCompare1\" on jack "pld1:out2[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in6[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:status_0\" on jack "pld1:out3[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:status_3\" on jack "dp:out1[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:cmp1_less\" on jack "dp:out2[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in3[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:tc_i\" on jack "dp:out3[UDB=(2,0)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld0:in5[UDB=(2,4)]"
+    
+    2. Connected jack name: "dp:in5[UDB=(2,0)]"
+    
+    3. Connected jack name: "statctrl:in2[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:cmp1_eq\" on jack "dp:out4[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in9[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(2,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in11[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:prevCompare2\" on jack "pld0:out0[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in3[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:status_1\" on jack "pld0:out1[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:ltch_kill_reg\" on jack "pld0:out2[UDB=(3,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in1[UDB=(3,0)]"
+    
+    2. Connected jack name: "pld1:in1[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:final_kill_reg\" on jack "pld0:out3[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in7[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:min_kill_reg\" on jack "pld1:out0[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in4[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:runmode_enable\" on jack "pld1:out1[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in2[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:Net_3622\" on jack "pld1:out2[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in5[UDB=(0,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:status_5\" on jack "pld1:out3[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(2,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:cmp2_less\" on jack "dp:out0[UDB=(3,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in6[UDB=(3,0)]"
+    
+    2. Connected jack name: "pld1:in9[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:status_3\" on jack "dp:out1[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:cmp2_eq\" on jack "dp:out3[UDB=(3,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in5[UDB=(3,0)]"
+    
+    2. Connected jack name: "pld1:in2[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:tc_i\" on jack "dp:out4[UDB=(3,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "statctrl:in2[UDB=(3,0)]"
+    
+    2. Connected jack name: "dp:in5[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:compare1\" on jack "dp:out5[UDB=(3,0)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in7[UDB=(3,1)]"
+    
+    2. Connected jack name: "pld1:in11[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(3,0)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in0[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:prevCompare2\" on jack "pld0:out1[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in2[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:status_1\" on jack "pld0:out2[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:Net_332\" on jack "pld0:out3[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in6[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:final_kill_reg\" on jack "pld1:out0[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in4[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:status_5\" on jack "pld1:out1[UDB=(2,1)]".
+Number of connected bvjacks: 8.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(1,0)]"
+    
+    2. Connected jack name: "statctrl:inout1[UDB=(3,4)]"
+    
+    3. Connected jack name: "statctrl:inout1[UDB=(2,3)]"
+    
+    4. Connected jack name: "statctrl:inout1[UDB=(3,3)]"
+    
+    5. Connected jack name: "statctrl:inout1[UDB=(0,3)]"
+    
+    6. Connected jack name: "statctrl:inout1[UDB=(3,0)]"
+    
+    7. Connected jack name: "statctrl:inout1[UDB=(3,1)]"
+    
+    8. Connected jack name: "statctrl:inout1[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:runmode_enable\" on jack "pld1:out2[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in5[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:status_0\" on jack "pld1:out3[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:compare1\" on jack "dp:out0[UDB=(2,1)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld1:in1[UDB=(2,4)]"
+    
+    2. Connected jack name: "pld0:in6[UDB=(2,1)]"
+    
+    3. Connected jack name: "pld1:in1[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:status_3\" on jack "dp:out1[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:cmp2_less\" on jack "dp:out2[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in0[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:cmp2_eq\" on jack "dp:out3[UDB=(2,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in9[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:tc_i\" on jack "dp:out4[UDB=(2,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "dp:in2[UDB=(2,1)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(2,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in4[UDB=(2,1)]"
+    
+    2. Connected jack name: "pld1:in4[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:status_0\" on jack "pld0:out0[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(3,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:runmode_enable\" on jack "pld0:out1[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in2[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:final_kill_reg\" on jack "pld0:out2[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in6[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_6:PWMUDB:prevCompare1\" on jack "pld0:out3[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in3[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:runmode_enable\" on jack "pld1:out1[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in5[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:status_5\" on jack "pld1:out2[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:runmode_enable\" on jack "pld1:out3[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in0[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:tc_i\" on jack "dp:out0[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in2[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:status_3\" on jack "dp:out1[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:compare1\" on jack "dp:out4[UDB=(3,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in10[UDB=(3,3)]"
+    
+    2. Connected jack name: "pld1:in1[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:tc_i\" on jack "dp:out5[UDB=(3,1)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in3[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(3,1)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in0[UDB=(3,2)]"
+    
+    2. Connected jack name: "pld0:in8[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:status_1\" on jack "pld0:out0[UDB=(2,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in1[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:prevCompare2\" on jack "pld0:out1[UDB=(2,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in2[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:Net_3616\" on jack "pld0:out2[UDB=(2,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in11[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:final_kill_reg\" on jack "pld0:out3[UDB=(2,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in10[UDB=(1,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:ltch_kill_reg\" on jack "pld1:out0[UDB=(2,2)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld0:in3[UDB=(2,5)]"
+    
+    2. Connected jack name: "pld0:in3[UDB=(2,3)]"
+    
+    3. Connected jack name: "pld1:in0[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:ltch_kill_reg\" on jack "pld1:out1[UDB=(2,2)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld0:in7[UDB=(0,2)]"
+    
+    2. Connected jack name: "pld1:in2[UDB=(0,2)]"
+    
+    3. Connected jack name: "pld1:in5[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:min_kill_reg\" on jack "pld1:out2[UDB=(2,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in2[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:min_kill_reg\" on jack "pld1:out3[UDB=(2,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in7[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:Net_3120\" on jack "statctrl:out2[UDB=(2,2)]".
+Number of connected bvjacks: 35.
+
+    1. Connected jack name: "clkrst:in2[UDB=(2,3)]"
+    
+    2. Connected jack name: "clkrst:in2[UDB=(3,3)]"
+    
+    3. Connected jack name: "in2[FFB(Timer,0)]"
+    
+    4. Connected jack name: "clkrst:in0[UDB=(1,3)]"
+    
+    5. Connected jack name: "clkrst:in0[UDB=(1,2)]"
+    
+    6. Connected jack name: "clkrst:in3[UDB=(0,0)]"
+    
+    7. Connected jack name: "dp:in3[UDB=(0,1)]"
+    
+    8. Connected jack name: "clkrst:in3[UDB=(0,1)]"
+    
+    9. Connected jack name: "clkrst:in3[UDB=(1,1)]"
+    
+    10. Connected jack name: "dp:in3[UDB=(0,2)]"
+    
+    11. Connected jack name: "clkrst:in3[UDB=(0,2)]"
+    
+    12. Connected jack name: "dp:in3[UDB=(1,3)]"
+    
+    13. Connected jack name: "dp:in3[UDB=(1,0)]"
+    
+    14. Connected jack name: "clkrst:in3[UDB=(1,0)]"
+    
+    15. Connected jack name: "dp:in3[UDB=(1,1)]"
+    
+    16. Connected jack name: "dp:in3[UDB=(1,2)]"
+    
+    17. Connected jack name: "clkrst:in2[UDB=(2,1)]"
+    
+    18. Connected jack name: "clkrst:in2[UDB=(3,1)]"
+    
+    19. Connected jack name: "clkrst:in2[UDB=(2,2)]"
+    
+    20. Connected jack name: "clkrst:in2[UDB=(3,2)]"
+    
+    21. Connected jack name: "dp:in1[UDB=(3,5)]"
+    
+    22. Connected jack name: "clkrst:in2[UDB=(2,5)]"
+    
+    23. Connected jack name: "clkrst:in1[UDB=(3,5)]"
+    
+    24. Connected jack name: "dp:in1[UDB=(2,4)]"
+    
+    25. Connected jack name: "dp:in1[UDB=(3,4)]"
+    
+    26. Connected jack name: "clkrst:in1[UDB=(3,4)]"
+    
+    27. Connected jack name: "dp:in1[UDB=(2,3)]"
+    
+    28. Connected jack name: "dp:in1[UDB=(3,3)]"
+    
+    29. Connected jack name: "dp:in1[UDB=(2,0)]"
+    
+    30. Connected jack name: "clkrst:in1[UDB=(2,0)]"
+    
+    31. Connected jack name: "clkrst:in2[UDB=(3,0)]"
+    
+    32. Connected jack name: "dp:in1[UDB=(3,0)]"
+    
+    33. Connected jack name: "dp:in1[UDB=(2,1)]"
+    
+    34. Connected jack name: "dp:in1[UDB=(3,1)]"
+    
+    35. Connected jack name: "dp:in1[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:prevCompare1\" on jack "pld0:out0[UDB=(3,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in11[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:sc_kill_tmp\" on jack "pld0:out1[UDB=(3,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in5[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_12:PWMUDB:status_5\" on jack "pld0:out2[UDB=(3,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(1,1)]"
+    
+    
+
+Found signal "\Motor_1:Net_3604\" on jack "pld0:out3[UDB=(3,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in11[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:status_0\" on jack "pld1:out0[UDB=(3,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:final_kill_reg\" on jack "pld1:out1[UDB=(3,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in1[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:ltch_kill_reg\" on jack "pld1:out2[UDB=(3,2)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld0:in9[UDB=(2,2)]"
+    
+    2. Connected jack name: "pld1:in6[UDB=(3,2)]"
+    
+    3. Connected jack name: "pld0:in9[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:ltch_kill_reg\" on jack "pld1:out3[UDB=(3,2)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in7[UDB=(3,2)]"
+    
+    2. Connected jack name: "pld1:in4[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:status_3\" on jack "dp:out1[UDB=(3,2)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:compare1\" on jack "dp:out3[UDB=(3,2)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in9[UDB=(3,2)]"
+    
+    2. Connected jack name: "pld1:in2[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_10:PWMUDB:tc_i\" on jack "dp:out5[UDB=(3,2)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "dp:in3[UDB=(3,2)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(3,2)]"
+    
+    3. Connected jack name: "pld0:in3[UDB=(3,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(3,2)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in0[UDB=(3,3)]"
+    
+    2. Connected jack name: "pld1:in11[UDB=(3,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_8:PWMUDB:runmode_enable\" on jack "pld0:out0[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in3[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:Net_796\" on jack "pld0:out2[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in9[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:final_kill_reg\" on jack "pld0:out3[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in8[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:status_0\" on jack "pld1:out0[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(3,1)]"
+    
+    
+
+Found signal "Net_22" on jack "pld1:out1[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "io_ijack_2[IOP=(12)]"
+    
+    
+
+Found signal "\Motor_1:PWM_4:PWMUDB:prevCompare1\" on jack "pld1:out2[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in6[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_8:PWMUDB:status_0\" on jack "pld1:out3[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_8:PWMUDB:status_3\" on jack "dp:out1[UDB=(2,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_8:PWMUDB:tc_i\" on jack "dp:out2[UDB=(2,3)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "statctrl:in2[UDB=(2,3)]"
+    
+    2. Connected jack name: "dp:in4[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_8:PWMUDB:compare1\" on jack "dp:out4[UDB=(2,3)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld0:in10[UDB=(2,4)]"
+    
+    2. Connected jack name: "pld0:in10[UDB=(2,3)]"
+    
+    3. Connected jack name: "pld1:in5[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(2,3)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in4[UDB=(2,0)]"
+    
+    2. Connected jack name: "pld0:in4[UDB=(2,2)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:runmode_enable\" on jack "pld0:out1[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in2[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:Net_330\" on jack "pld0:out2[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in1[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:status_0\" on jack "pld1:out0[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:prevCompare1\" on jack "pld1:out1[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in6[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:Net_333\" on jack "pld1:out3[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in7[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:status_3\" on jack "dp:out1[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:cmp1_eq\" on jack "dp:out3[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in2[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:cmp1_less\" on jack "dp:out4[UDB=(3,3)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in10[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:tc_i\" on jack "dp:out5[UDB=(3,3)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "dp:in3[UDB=(3,3)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_1:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(3,3)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld1:in8[UDB=(3,1)]"
+    
+    2. Connected jack name: "pld1:in4[UDB=(3,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_8:PWMUDB:prevCompare1\" on jack "pld0:out0[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in3[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_9:PWMUDB:sc_kill_tmp\" on jack "pld0:out2[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in6[UDB=(2,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:sc_kill_tmp\" on jack "pld0:out3[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in7[UDB=(2,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_2:PWMUDB:prevCompare1\" on jack "pld1:out1[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in2[UDB=(2,1)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:sc_kill_tmp\" on jack "pld1:out3[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in7[UDB=(2,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:cmp1_eq\" on jack "dp:out0[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in9[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:status_3\" on jack "dp:out1[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:cmp1_less\" on jack "dp:out2[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in8[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:tc_i\" on jack "dp:out4[UDB=(2,4)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "pld1:in10[UDB=(2,5)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(2,5)]"
+    
+    3. Connected jack name: "dp:in2[UDB=(2,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_8:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(2,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in4[UDB=(2,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:status_0\" on jack "pld0:out0[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(1,3)]"
+    
+    
+
+Found signal "\Motor_1:PWM_11:PWMUDB:prevCompare1\" on jack "pld0:out1[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in5[UDB=(3,4)]"
+    
+    
+
+Found signal "Net_25" on jack "pld0:out2[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "io_ijack_5[IOP=(12)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:runmode_enable\" on jack "pld0:out3[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in4[UDB=(2,4)]"
+    
+    
+
+Found signal "\Motor_1:Net_802\" on jack "pld1:out0[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in7[UDB=(3,4)]"
+    
+    
+
+Found signal "__ONE__" on jack "pld1:out1[UDB=(3,4)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "statctrl:in1[UDB=(1,5)]"
+    
+    2. Connected jack name: "statctrl:in0[UDB=(1,5)]"
+    
+    3. Connected jack name: "in3[FFB(Timer,0)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:status_0\" on jack "pld1:out2[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:prevCompare1\" on jack "pld1:out3[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in4[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:cmp1_less\" on jack "dp:out0[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in1[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:status_3\" on jack "dp:out1[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:tc_i\" on jack "dp:out4[UDB=(3,4)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "statctrl:in2[UDB=(3,4)]"
+    
+    2. Connected jack name: "dp:in5[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:cmp1_eq\" on jack "dp:out5[UDB=(3,4)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in0[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_5:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(3,4)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in8[UDB=(3,3)]"
+    
+    2. Connected jack name: "pld1:in7[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:status_0\" on jack "pld0:out0[UDB=(2,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:prevCompare1\" on jack "pld0:out1[UDB=(2,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in2[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:Net_3619\" on jack "pld0:out2[UDB=(2,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in2[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:sc_kill_tmp\" on jack "pld1:out1[UDB=(2,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in5[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:status_5\" on jack "pld1:out2[UDB=(2,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:sc_kill_tmp\" on jack "pld1:out3[UDB=(2,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in3[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_16:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(2,5)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in0[UDB=(3,4)]"
+    
+    2. Connected jack name: "pld0:in11[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:Net_3620\" on jack "pld0:out0[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in4[UDB=(3,4)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:status_0\" on jack "pld0:out1[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in0[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:prevCompare1\" on jack "pld0:out2[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in6[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:runmode_enable\" on jack "pld0:out3[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "dp:in0[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_14:PWMUDB:min_kill_reg\" on jack "pld1:out0[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in3[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:status_5\" on jack "pld1:out1[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:inout1[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:final_kill_reg\" on jack "pld1:out2[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld1:in5[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:ltch_kill_reg\" on jack "pld1:out3[UDB=(3,5)]".
+Number of connected bvjacks: 2.
+
+    1. Connected jack name: "pld0:in3[UDB=(3,5)]"
+    
+    2. Connected jack name: "pld1:in4[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:status_3\" on jack "dp:out1[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "statctrl:in3[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:compare1\" on jack "dp:out4[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in10[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:tc_i\" on jack "dp:out5[UDB=(3,5)]".
+Number of connected bvjacks: 3.
+
+    1. Connected jack name: "dp:in3[UDB=(3,5)]"
+    
+    2. Connected jack name: "statctrl:in2[UDB=(3,5)]"
+    
+    3. Connected jack name: "pld1:in0[UDB=(2,5)]"
+    
+    
+
+Found signal "\Motor_1:PWM_15:PWMUDB:ctrl_enable\" on jack "statctrl:out7[UDB=(3,5)]".
+Number of connected bvjacks: 1.
+
+    1. Connected jack name: "pld0:in0[UDB=(3,5)]"
+    
+    
+
+Found signal "\Motor_1:Net_3271\" on jack "tc[FFB(Timer,0)]".
+Number of connected bvjacks: 15.
+
+    1. Connected jack name: "pld0:in10[UDB=(1,3)]"
+    
+    2. Connected jack name: "pld1:in1[UDB=(0,3)]"
+    
+    3. Connected jack name: "pld1:in1[UDB=(1,3)]"
+    
+    4. Connected jack name: "pld0:in10[UDB=(1,0)]"
+    
+    5. Connected jack name: "pld0:in2[UDB=(1,2)]"
+    
+    6. Connected jack name: "pld0:in4[UDB=(2,4)]"
+    
+    7. Connected jack name: "pld1:in11[UDB=(2,5)]"
+    
+    8. Connected jack name: "pld1:in11[UDB=(3,5)]"
+    
+    9. Connected jack name: "pld1:in11[UDB=(2,4)]"
+    
+    10. Connected jack name: "pld0:in1[UDB=(3,2)]"
+    
+    11. Connected jack name: "pld0:in2[UDB=(2,0)]"
+    
+    12. Connected jack name: "pld0:in2[UDB=(3,0)]"
+    
+    13. Connected jack name: "pld1:in10[UDB=(3,0)]"
+    
+    14. Connected jack name: "pld1:in10[UDB=(2,2)]"
+    
+    15. Connected jack name: "pld1:in10[UDB=(3,2)]"
+    
+    
+
+
+---------Verifying signals (routing).---------
+
+
+---------Verifying configuration.---------
+
+
+
+----------------------------------------------------------------------
+
+Bitstream verification passed.
+
+-----------------------------------------------------------------------
+
